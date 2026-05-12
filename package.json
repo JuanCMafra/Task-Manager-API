@@ -4,7 +4,7 @@
   "description": "An API to management teams tasks",
   "main": "index.js",
   "engines": {
-    "node": ">=18"
+    "node": "22.x"
   },
   "type": "module",
   "scripts": {
