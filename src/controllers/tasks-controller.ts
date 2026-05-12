@@ -1,7 +1,8 @@
-import prisma from "@/database/prisma";
-import { AppError } from "@/utils/AppError";
+import prisma from "../database/prisma";
+import { AppError } from "../utils/AppError";
+
 import { Request, Response, NextFunction } from "express";
-import z, { includes } from "zod";
+import z from "zod";
 
 class TasksController {
   async create(req: Request, res: Response, next: NextFunction) {

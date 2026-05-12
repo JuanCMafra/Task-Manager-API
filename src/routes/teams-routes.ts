@@ -1,6 +1,6 @@
-import { TeamsController } from "@/controllers/teams-controller";
-import { ensureAuthenticated } from "@/middlewares/ensure-authenticated";
-import { verifyUserAuthorization } from "@/middlewares/verifyUserAuthorization";
+import { TeamsController } from "../controllers/teams-controller";
+import { ensureAuthenticated } from "../middlewares/ensure-authenticated";
+import { verifyUserAuthorization } from "../middlewares/verifyUserAuthorization";
 import { Router } from "express";
 
 const teamsRoutes = Router();

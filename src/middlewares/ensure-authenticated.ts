@@ -1,5 +1,6 @@
-import { authConfig } from "@/config/auth";
-import { AppError } from "@/utils/AppError";
+import { authConfig } from "../config/auth";
+import { AppError } from "../utils/AppError";
+
 import { Request, Response, NextFunction } from "express";
 import  jwt  from "jsonwebtoken";
 

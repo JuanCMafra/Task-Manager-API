@@ -1,7 +1,8 @@
 import { NextFunction, Request, Response } from "express";
 import z from "zod";
-import prisma from "@/database/prisma";
-import { AppError } from "@/utils/AppError";
+import prisma from "../database/prisma";
+import { AppError } from "../utils/AppError";
+
 import { hash } from "bcrypt";
 
 export class UsersController {

@@ -1,10 +1,10 @@
-import { TaskAssignerController } from "@/controllers/task-assigner-controller";
-import { TaskFilterController } from "@/controllers/task-filter-controller";
-import { TaskHistoryController } from "@/controllers/task-history-controller";
-import { TasksController } from "@/controllers/tasks-controller";
-import { ensureAuthenticated } from "@/middlewares/ensure-authenticated";
-import { ensureTaskPermission } from "@/middlewares/ensure-task-permission";
-import { verifyUserAuthorization } from "@/middlewares/verifyUserAuthorization";
+import { TaskAssignerController } from "../controllers/task-assigner-controller";
+import { TaskFilterController } from "../controllers/task-filter-controller";
+import { TaskHistoryController } from "../controllers/task-history-controller";
+import { TasksController } from "../controllers/tasks-controller";
+import { ensureAuthenticated } from "../middlewares/ensure-authenticated";
+import { ensureTaskPermission } from "../middlewares/ensure-task-permission";
+import { verifyUserAuthorization } from "../middlewares/verifyUserAuthorization";
 import { Router } from "express";
 
 const tasksRoutes = Router();
