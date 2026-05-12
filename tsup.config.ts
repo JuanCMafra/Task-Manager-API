@@ -5,4 +5,8 @@ export default defineConfig({
   outDir: "build",
   format: ["cjs"],
   clean: true,
+  bundle: false,
+  splitting: false,
+  sourcemap: true,
+  skipNodeModulesBundle: true,
 });
