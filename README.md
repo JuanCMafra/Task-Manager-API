@@ -4,6 +4,8 @@ A RESTful API built to manage teams and tasks in a simple, secure, and scalable 
 
 This project was developed using Node.js, TypeScript, Express, Prisma ORM, and PostgreSQL, following clean architecture principles and backend best practices.
 
+link for live access: https://task-manager-api-uul4.onrender.com
+
 ---
 
 # Features
